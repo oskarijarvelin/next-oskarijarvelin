@@ -45,5 +45,5 @@ gulp.task('styles', function() {
         .pipe(touch()); // PREVENT GETTING STUCK IN SERVER FILE CACHE BY EDITING TIMESTAMPS
 });
 
-gulp.watch('sass/**/*.scss', gulp.series('styles'));
+gulp.watch('scss/**/*.scss', gulp.series('styles'));
 gulp.task('default', gulp.series('styles'));

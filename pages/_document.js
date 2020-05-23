@@ -38,6 +38,10 @@ export default class MyDocument extends Document {
                 <body>
                     <Main />
                     <NextScript />
+
+                    <a href="tel:+358458983883">
+                        <div className="cta" dangerouslySetInnerHTML={{__html: require('../public/images/icons/phone.svg?include')}} />
+                    </a>
                 </body>
             </html>
         )

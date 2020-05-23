@@ -1,0 +1,15 @@
+// Breakpoints for width
+@mixin minwidth($px) {
+    @media (min-width: $px + px) { @content ; }
+}
+  
+// Breakpoints for height
+@mixin minheight($px) {
+    @media (min-height: $px + px) { @content ; }
+}
+
+// Font-size
+@mixin fontsize($size: 16) {
+    font-size: $size * 1px;
+    font-size: ($size / 16) * 1rem;
+}
