@@ -5,11 +5,11 @@ class Index extends React.Component {
     render() {
         return <main>
             <Head>
-                <title>Oskari Järvelin</title>
-                <meta name="description" content="This is an example of a meta description. This will often show up in search results." />
+                <title>Kuinka voin palvella? - Oskari Järvelin</title>
+                <meta name="description" content="Olen 25-vuotias Web Developer Oulusta. Ydinosaamistani ovat verkkopalvelut, WordPress, tietoturva ja tapahtumatekniikka. Kuinka voin palvella?" />
             </Head>
             
-            <div className="container">
+            <div className="content">
                 <h1>Oskari Järvelin</h1>
             </div>
         </main>

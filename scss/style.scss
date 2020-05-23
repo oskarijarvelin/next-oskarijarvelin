@@ -9,6 +9,10 @@
         url('/fonts/roboto-condensed-v18-latin-700.woff') format('woff');
 }
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     height: 100%;
     margin: 0;
@@ -35,8 +39,12 @@ h1 {
     @include fontsize(28);
     margin: 0;
 
+    @include minwidth(576) {
+        @include fontsize(36);
+    }
+
     @include minwidth(992) {
-        @include fontsize(32);
+        @include fontsize(56);
     }
 }
 
@@ -50,12 +58,14 @@ main {
     background-size: cover;
     display: flex;
     height: 100%;
+    padding: 1rem;
     position: relative;
     width: 100%;
     z-index: 1;
 
     @include minwidth(992) {
         align-items: flex-start;
+        padding: 2rem;
     }
 }
 
@@ -89,9 +99,12 @@ main::after {
     }
 }
 
-.container {
+.content {
+    bottom: 0;
+    left: 0;
     padding: 1rem;
-    position: relative;
+    position: fixed;
+    width: 100%;
     z-index: 2;
 
     @include minwidth(992) {
@@ -103,29 +116,49 @@ main::after {
     align-items: center;
     background-color: #223388;
     border-radius: 50%;
-    bottom: 16px;
+    bottom: 1rem;
     box-shadow: 0 0 16px rgba(0,0,0,.2);
     display: flex;
     justify-content: center;
     height: 60px;
     position: absolute;
-    right: 16px;
+    right: 1rem;
+    transition: background-color .3s ease, box-shadow .3s ease;
     width: 60px;
     z-index: 2;
 
     @include minwidth(992) {
-        bottom: 32px;
-        height: 80px;
-        right: 32px;
-        width: 80px;
+        border-radius: 3px;
+        bottom: 2rem;
+        height: unset;
+        padding: 12px 24px;
+        right: 2rem;
+        width: unset;
+    }
+
+    &:hover {
+        background-color: #2233AA;
+        box-shadow: 0 0 4px rgba(0,0,0,.2);
     }
 
     svg {
-        width: 24px;
-        height: 24px;
+        width: 18px;
+        height: 18px;
     
         path {
             fill: #fff;
+        }
+    }
+
+    span {
+        display: none;
+
+        @include minwidth(992) {
+            color: #fff;
+            display: block;
+            font-weight: 700;
+            line-height: 1;
+            padding: 2px 0 3px 12px;
         }
     }
 }

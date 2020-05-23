@@ -1,4 +1,5 @@
 import Document, { Head, Main, NextScript } from 'next/document';
+import Cta from '../components/cta';
 
 export default class MyDocument extends Document {
     render() {
@@ -38,10 +39,7 @@ export default class MyDocument extends Document {
                 <body>
                     <Main />
                     <NextScript />
-
-                    <a href="tel:+358458983883">
-                        <div className="cta" dangerouslySetInnerHTML={{__html: require('../public/images/icons/phone.svg?include')}} />
-                    </a>
+                    <Cta />                    
                 </body>
             </html>
         )
