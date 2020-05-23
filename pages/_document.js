@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
         return (
             <html lang="fi">
                 <Head>
-                    <meta charset="UTF-8" />
+                    <meta charSet="UTF-8" />
                     <link rel="profile" href="https://gmpg.org/xfn/11" />
                     <meta name="robots" content="index, follow" />
                     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
