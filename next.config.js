@@ -1,7 +1,13 @@
+const withPlugins = require('next-compose-plugins');
+const optimizedImages = require('next-optimized-images');
 const withPWA = require('next-pwa')
 
-module.exports = withPWA({
-  pwa: {
-    dest: 'public'
-  }
-})
+module.exports = withPlugins([
+  optimizedImages,
+
+  [withPWA, {
+    pwa: {
+      dest: 'public'
+    }
+  }]
+]);

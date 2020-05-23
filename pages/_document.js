@@ -39,27 +39,6 @@ export default class MyDocument extends Document {
                     <Main />
                     <NextScript />
                 </body>
-
-                <style global jsx>{`
-                    @font-face {
-                        font-family: 'Roboto Condensed';
-                        font-style: normal;
-                        font-weight: 700;
-                        src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'),
-                            url('/fonts/roboto-condensed-v18-latin-700.woff2') format('woff2'),
-                            url('/fonts/roboto-condensed-v18-latin-700.woff') format('woff');
-                    }
-
-                    html, body {
-                        margin: 0;
-                        padding: 0;
-                        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-                    }
-
-                    h1, h2, h3, h4, h5, h6 {
-                        font-family: 'Roboto Condensed', sans-serif;
-                    }    
-                `}</style>
             </html>
         )
     }
