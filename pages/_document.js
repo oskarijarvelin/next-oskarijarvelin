@@ -1,6 +1,5 @@
 import Document, { Head, Main, NextScript } from 'next/document';
 import Header from '../components/header';
-import Cta from '../components/cta';
 
 export default class MyDocument extends Document {
     render() {
@@ -51,8 +50,7 @@ export default class MyDocument extends Document {
                 <body>
                     <Header />
                     <Main />
-                    <NextScript />
-                    <Cta />                    
+                    <NextScript />               
                 </body>
             </html>
         )
