@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { urlObjectKeys } from 'next/dist/next-server/lib/utils';
+import Hero from '../components/hero';
 
 class Index extends React.Component {
     render() {
@@ -15,9 +15,7 @@ class Index extends React.Component {
                 <meta property="og:image:height" content="2000" />
             </Head>
             
-            <div className="content">
-                <h1>Kuinka voin palvella?</h1>
-            </div>
+            <Hero />
         </main>
     }
 }

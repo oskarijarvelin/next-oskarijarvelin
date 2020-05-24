@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'),
+        url('/fonts/roboto-condensed-v18-latin-700.woff2') format('woff2'),
+        url('/fonts/roboto-condensed-v18-latin-700.woff') format('woff');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    @include fontsize(28);
+    margin: 0;
+
+    @include minwidth(576) {
+        @include fontsize(36);
+    }
+
+    @include minwidth(992) {
+        @include fontsize(56);
+    }
+}
