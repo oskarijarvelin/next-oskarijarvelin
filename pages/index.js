@@ -1,9 +1,10 @@
 import Head from 'next/head';
 import Hero from '../components/hero';
+import Layout from '../components/layout';
 
-class Index extends React.Component {
-    render() {
-        return <main>
+export default function Index() {
+    return (
+        <Layout title="Kuinka voin palvella?">
             <Head>
                 <title>Kuinka voin palvella? - Oskari Järvelin - Web Developer</title>
                 <meta name="description" content="Olen 25-vuotias Web Developer Oulusta. Ydinosaamistani ovat verkkopalvelut, WordPress, tietoturva ja tapahtumatekniikka. Kuinka voin palvella?" />
@@ -22,7 +23,6 @@ class Index extends React.Component {
                     <h2>Osaaminen</h2>
                 </div>
             </div>
-        </main>
-    }
+        </Layout>  
+    )
 }
-export default Index;

@@ -1,6 +1,4 @@
 import Document, { Head, Main, NextScript } from 'next/document';
-import Link from 'next/link';
-import Header from '../components/header';
 
 export default class MyDocument extends Document {
     render() {
@@ -49,14 +47,8 @@ export default class MyDocument extends Document {
                 </Head>
 
                 <body>
-                    <Header />
                     <Main />
-                    <NextScript />  
-
-                    <footer>
-                        <p>&copy; {new Date().getFullYear()}: <span>Oskari Järvelin</span></p>
-                        <p><Link href="/tietosuojaseloste"><a>Tietosuojaseloste</a></Link></p>
-                    </footer>             
+                    <NextScript />            
                 </body>
             </html>
         )

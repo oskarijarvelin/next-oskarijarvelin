@@ -1,9 +1,10 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Layout from '../components/layout';
 
-class Index extends React.Component {
-    render() {
-        return <main>
+export default function Tietosuojaseloste() {
+    return (
+        <Layout title="Kuinka voin palvella?">
             <Head>
                 <title>Tietosuojaseloste - Oskari Järvelin - Web Developer</title>
                 <meta name="description" content="Olen 25-vuotias Web Developer Oulusta. Ydinosaamistani ovat verkkopalvelut, WordPress, tietoturva ja tapahtumatekniikka. Kuinka voin palvella?" />
@@ -17,15 +18,10 @@ class Index extends React.Component {
 
             <div className="content-wrapper">
                 <div className="content">
-                    <Link href="/">
-                        <a>&larr; Palaa takaisin</a>
-                    </Link>
+                    <Link href="/"><a>&larr; Palaa takaisin</a></Link>
                     <h1>Tietosuojaseloste</h1>
                 </div>
             </div>
-
-            
-        </main>
-    }
+        </Layout>
+    )
 }
-export default Index;
