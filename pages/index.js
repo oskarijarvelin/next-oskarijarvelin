@@ -16,7 +16,7 @@ class Index extends React.Component {
             </Head>
             
             <div className="content">
-                <h1>Oskari Järvelin</h1>
+                <h1>Kuinka voin palvella?</h1>
             </div>
         </main>
     }

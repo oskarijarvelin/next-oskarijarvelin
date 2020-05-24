@@ -1,4 +1,5 @@
 import Document, { Head, Main, NextScript } from 'next/document';
+import Header from '../components/header';
 import Cta from '../components/cta';
 
 export default class MyDocument extends Document {
@@ -23,8 +24,8 @@ export default class MyDocument extends Document {
                     <meta name="apple-mobile-web-app-capable" content="yes" />
                     <meta name="application-name" content="oskarijarvelin" />
                     <meta name="apple-mobile-web-app-title" content="oskarijarvelin" />
-                    <meta name="theme-color" content="#223388" />
-                    <meta name="msapplication-navbutton-color" content="#223388" />
+                    <meta name="theme-color" content="#ffffff" />
+                    <meta name="msapplication-navbutton-color" content="#ffffff" />
                     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
                     <meta name="msapplication-starturl" content="/" />
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -48,6 +49,7 @@ export default class MyDocument extends Document {
                 </Head>
 
                 <body>
+                    <Header />
                     <Main />
                     <NextScript />
                     <Cta />                    

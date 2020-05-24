@@ -14,21 +14,15 @@
 }
 
 html {
-    height: 100%;
     margin: 0;
     padding: 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 body {
-    height: 100%;
     margin: 0;
     padding: 0;
     position: relative;
-}
-
-#__next {
-    height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -48,16 +42,42 @@ h1 {
     }
 }
 
+header {
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 1rem rgba(0,0,0,.2);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    left: 0;
+    padding: 0 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
+    @include minwidth(992) {
+        padding: 0 2rem;
+    }
+}
+
+.header__branding {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 main {
     align-items: flex-end;
-    background-attachment: fixed;
     background-image: url('./images/oskari.jpg');
     background-image: url('./images/oskari.jpg?webp');
-    background-position: 75% 10%;
+    background-position: 75% 0%;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    height: 100%;
+    height: calc(100vh - 60px);
+    margin-top: 60px;
     padding: 1rem;
     position: relative;
     width: 100%;

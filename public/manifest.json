@@ -1,9 +1,9 @@
 {
   "name": "Oskari Järvelin",
   "short_name": "oskarijarvelin",
-  "theme_color": "#223399",
-  "background_color": "#223399",
-  "display": "fullscreen",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
   "orientation": "portrait",
   "Scope": "/",
   "start_url": "/",
