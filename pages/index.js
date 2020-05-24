@@ -23,6 +23,12 @@ export default function Index() {
                     <h2>Osaaminen</h2>
                 </div>
             </div>
+
+            <div className="asiakkaat">
+                <div className="asiakkaat__content">
+                    <h2>Osaamiseni luottavat mm.</h2>
+                </div>
+            </div>
         </Layout>  
     )
 }
