@@ -23,3 +23,16 @@ h1 {
         @include fontsize(56);
     }
 }
+
+h2 {
+    @include fontsize(24);
+    margin: 0;
+
+    @include minwidth(576) {
+        @include fontsize(32);
+    }
+
+    @include minwidth(992) {
+        @include fontsize(44);
+    }
+}

@@ -15,6 +15,90 @@ body {
     padding: 0;
 }
 
+#__next {
+    margin-top: 60px;
+}
+
+a {
+    color: #223388;
+    font-weight: 700;
+    position: relative;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }   
+}
+
+.content-wrapper {
+    height: calc(100vh - 60px);
+    padding: 3rem 1rem;
+    width: 100%;
+
+    @include minwidth(992) {
+        padding: 6rem 2rem;
+    }
+}
+
+.content {
+    max-width: 768px;
+    margin: 0 auto;
+
+    a {
+        &:before {
+            background-color: rgba(34,51,136,.15);
+            bottom: 0;
+            content: '';
+            height: 8px;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            z-index: -1;
+        }
+    }
+
+    h1 {
+        margin: 24px 0 0;
+    }
+}
+
+.osaaminen {
+    background-color: #223388;
+    height: 100vh;
+    padding: 3rem 1rem;
+    position: relative;
+    width: 100%;
+
+    @include minwidth(992) {
+        padding: 6rem 2rem;
+    }
+}
+
+.osaaminen__content {
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+
+    @include minwidth(992) {
+        padding: 1rem 2rem;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    span {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 700;
+    }
+}
+
 @import 'typography';
 @import 'header';
 @import 'hero';

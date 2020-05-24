@@ -58,12 +58,12 @@ header {
     }
 
     svg {
-        width: 18px;
-        height: 18px;
+        width: 24px;
+        height: 24px;
 
         @include minwidth(992) {
-            width: 14px;
-            height: 14px;
+            width: 20px;
+            height: 20px;
         }
     
         path {

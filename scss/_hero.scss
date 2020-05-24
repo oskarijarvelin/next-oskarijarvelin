@@ -7,14 +7,13 @@
     background-size: cover;
     display: flex;
     height: calc(100vh - 60px);
-    margin-top: 60px;
-    padding: 1rem;
+    padding: 3rem 1rem;
     position: relative;
     width: 100%;
     z-index: 1;
 
     @include minwidth(992) {
-        padding: 2rem;
+        padding: 6rem 2rem;
     }
 
     &:before {
