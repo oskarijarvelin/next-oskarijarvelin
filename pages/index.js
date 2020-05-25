@@ -60,7 +60,7 @@ export default function Index() {
                             <picture>
                                 <source srcSet={require('../public/images/digimoguli.png?webp')} type="image/webp" />
                                 <source srcSet={require('../public/images/digimoguli.png')} type="image/png" />
-                                <img src={require('../public/images/digimoguli.png')} />
+                                <img src={require('../public/images/digimoguli.png')} alt="Logo: Digimoguli Oy" />
                             </picture>
                         </div>
 
@@ -68,7 +68,7 @@ export default function Index() {
                             <picture>
                                 <source srcSet={require('../public/images/livepaletti.png?webp')} type="image/webp" />
                                 <source srcSet={require('../public/images/livepaletti.png')} type="image/png" />
-                                <img src={require('../public/images/livepaletti.png')} />
+                                <img src={require('../public/images/livepaletti.png')} alt="Logo: Livepaletti Oy" />
                             </picture>
                         </div>
 
@@ -76,7 +76,7 @@ export default function Index() {
                             <picture>
                                 <source srcSet={require('../public/images/oulunteatteri.png?webp')} type="image/webp" />
                                 <source srcSet={require('../public/images/oulunteatteri.png')} type="image/png" />
-                                <img src={require('../public/images/oulunteatteri.png')} />
+                                <img src={require('../public/images/oulunteatteri.png')} alt="Logo: Oulun Kaupunginteatteri Oy" />
                             </picture>
                         </div>
 
@@ -84,7 +84,7 @@ export default function Index() {
                             <picture>
                                 <source srcSet={require('../public/images/ouka.png?webp')} type="image/webp" />
                                 <source srcSet={require('../public/images/ouka.png')} type="image/png" />
-                                <img src={require('../public/images/ouka.png')} />
+                                <img src={require('../public/images/ouka.png')} alt="Logo: Oulun Kaupunki" />
                             </picture>
                         </div>
                     </div>
