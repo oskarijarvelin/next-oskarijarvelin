@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    @include fontsize(28);
+    @include fontsize(32);
     margin: 0;
 
     @include minwidth(576) {
@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-    @include fontsize(24);
+    @include fontsize(28);
     margin: 0;
 
     @include minwidth(576) {

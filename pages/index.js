@@ -20,13 +20,74 @@ export default function Index() {
 
             <div className="osaaminen">
                 <div className="osaaminen__content">
-                    <h2>Osaaminen</h2>
+                    <h2>Olen 25-vuotias oululainen</h2>
+
+                    <div className="taidot">
+                        <div className="taito">
+                            <div className="taito__icon" dangerouslySetInnerHTML={{ __html: require('../public/images/icons/internet.svg?include') }} />
+                            <p className="taito__title">Web Developer</p>
+                        </div>
+
+                        <div className="taito">
+                            <div className="taito__icon" dangerouslySetInnerHTML={{ __html: require('../public/images/icons/lights.svg?include') }} />
+                            <p className="taito__title">Valomies</p>
+                        </div>
+
+                        <div className="taito">
+                            <div className="taito__icon" dangerouslySetInnerHTML={{ __html: require('../public/images/icons/wordpress.svg?include') }} />
+                            <p className="taito__title">WordPress-kehittäjä</p>
+                        </div>
+
+                        <div className="taito">
+                            <div className="taito__icon" dangerouslySetInnerHTML={{ __html: require('../public/images/icons/mic.svg?include') }} />
+                            <p className="taito__title">Miksaaja</p>
+                        </div>
+
+                        <div className="taito">
+                            <div className="taito__icon" dangerouslySetInnerHTML={{ __html: require('../public/images/icons/sheltie.svg?include') }} />
+                            <p className="taito__title">Kanelin kasvattaja</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div className="asiakkaat">
                 <div className="asiakkaat__content">
-                    <h2>Osaamiseni luottavat mm.</h2>
+                    <h2>Osaamiseeni luottavat</h2>
+
+                    <div className="asiakkuudet">
+                        <div className="asiakas">
+                            <picture>
+                                <source srcSet={require('../public/images/digimoguli.png?webp')} type="image/webp" />
+                                <source srcSet={require('../public/images/digimoguli.png')} type="image/png" />
+                                <img src={require('../public/images/digimoguli.png')} />
+                            </picture>
+                        </div>
+
+                        <div className="asiakas">
+                            <picture>
+                                <source srcSet={require('../public/images/livepaletti.png?webp')} type="image/webp" />
+                                <source srcSet={require('../public/images/livepaletti.png')} type="image/png" />
+                                <img src={require('../public/images/livepaletti.png')} />
+                            </picture>
+                        </div>
+
+                        <div className="asiakas">
+                            <picture>
+                                <source srcSet={require('../public/images/oulunteatteri.png?webp')} type="image/webp" />
+                                <source srcSet={require('../public/images/oulunteatteri.png')} type="image/png" />
+                                <img src={require('../public/images/oulunteatteri.png')} />
+                            </picture>
+                        </div>
+
+                        <div className="asiakas">
+                            <picture>
+                                <source srcSet={require('../public/images/ouka.png?webp')} type="image/webp" />
+                                <source srcSet={require('../public/images/ouka.png')} type="image/png" />
+                                <img src={require('../public/images/ouka.png')} />
+                            </picture>
+                        </div>
+                    </div>
                 </div>
             </div>
         </Layout>  

@@ -11,7 +11,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 99;
 
     @include minwidth(992) {
         padding: 0 2rem;
