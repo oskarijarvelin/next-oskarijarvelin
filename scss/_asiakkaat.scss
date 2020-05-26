@@ -1,0 +1,95 @@
+.asiakkaat {
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url('./images/oskari2.jpg');
+    background-image: url('./images/oskari2.jpg?webp');
+    background-position: 20% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 3rem 1rem;
+    position: relative;
+    width: 100%;
+
+    @include minwidth(576) {
+        justify-content: flex-end;
+    }
+
+    @include minwidth(992) {
+        padding: 6rem 2rem;
+    }
+
+    &:before {
+        background-color: rgba(255,255,255,.75);
+        content: '';
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+        @include minwidth(576) {
+            background-color: rgba(255,255,255,.3);
+        }
+    }
+
+    &:after {
+        background-image: none;
+        content: '';
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+        @include minwidth(576) {
+            background-image: linear-gradient(-111deg,rgba(255,255,255,.95) 0,rgba(255,255,255,.6) 40%,rgba(255,255,255,0) 65%,rgba(255,255,255,0) 100%);
+        }
+    }
+}
+
+.asiakkaat__content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 2;
+
+    @include minwidth(576) {
+        align-items: flex-end;
+    }
+
+    h2 {
+        margin: 0 0 6rem;
+        text-align: center;
+
+        @include minwidth(576) {
+            text-align: right;
+        }
+    }
+}
+
+.logot {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin: 0 0 60px;
+
+    @include minwidth(992) {
+        margin: 0 0 80px;
+    }
+
+    img {
+        width: 180px;
+        height: auto;
+
+        @include minwidth(992) {
+            width: 250px;
+        }
+    }
+}

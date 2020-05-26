@@ -1,0 +1,88 @@
+.osaaminen {
+    align-items: center;
+    background-color: #223388;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 3rem 1rem;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+
+    @include minwidth(992) {
+        padding: 6rem 2rem;
+    }
+}
+
+.osaaminen__content {
+    color: #fff;
+    margin: 0 auto;
+    max-width: 880px;
+
+    h2 {
+        margin: 0 0 3rem;
+        text-align: center;
+
+        @include minwidth(992) {
+            margin: 0 0 6rem;
+        }
+    }
+}
+
+.taidot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -24px -24px 0;
+
+    @include minwidth(992) {
+        margin: 0 -40px -40px 0;
+    }
+}
+
+.taito {
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 4px;
+    display: flex;
+    flex: 0 0 calc(100% - 24px);
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 24px 24px 0;
+    max-width: calc(100% - 24px);
+    padding: 40px 24px;
+
+    @include minwidth(576) {
+        flex: 0 0 calc(50% - 24px);
+        max-width: calc(50% - 24px);
+    }
+
+    @include minwidth(992) {
+        flex: 0 0 calc(33% - 40px);
+        margin: 0 40px 40px 0;
+        max-width: calc(33% - 40px);
+        padding: 40px 24px;
+    }
+}
+
+.taito__icon {
+    svg {
+        width: 48px;
+        height: 48px;
+    }
+
+    path {
+        fill: #fff;
+    }
+}
+
+.taito__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 16px 0 0;
+
+    @include minwidth(992) {
+        font-size: 20px;
+        margin: 24px 0 0;
+    }
+}
