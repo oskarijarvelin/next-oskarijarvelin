@@ -20,8 +20,8 @@ export default class MyDocument extends Document {
 
                     <meta name="mobile-web-app-capable" content="yes" />
                     <meta name="apple-mobile-web-app-capable" content="yes" />
-                    <meta name="application-name" content="oskarijarvelin" />
-                    <meta name="apple-mobile-web-app-title" content="oskarijarvelin" />
+                    <meta name="application-name" content="Oskari Järvelin" />
+                    <meta name="apple-mobile-web-app-title" content="Oskari Järvelin" />
                     <meta name="theme-color" content="#ffffff" />
                     <meta name="msapplication-navbutton-color" content="#ffffff" />
                     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
