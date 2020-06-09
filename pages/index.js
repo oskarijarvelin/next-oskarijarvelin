@@ -4,7 +4,6 @@ import Osaaminen from '../components/osaaminen';
 import Asiakkaat from '../components/asiakkaat';
 import Layout from '../components/layout';
 
-
 export default function Index() {
     return (
         <Layout title="Kuinka voin palvella?">
@@ -19,8 +18,6 @@ export default function Index() {
                 <meta property="og:image:height" content="2000" />
                 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
             </Head>
-
-
             
             <Hero />
 

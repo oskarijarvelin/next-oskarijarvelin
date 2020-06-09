@@ -7,16 +7,39 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-    - label: "Home"
-      name: "home"
-      file: "content/home.md"
+    - label: "Web Developer"
+      name: "web-developer"
+      file: "content/web-developer.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
         - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Cats'
-          name: "cats"
-          widget: list
-          fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
+    - label: "Valomies"
+      name: "valomies"
+      file: "content/valomies.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Body", name: "body", widget: "markdown"}
+    - label: "WordPress-kehittäjä"
+      name: "wordpress-kehittaja"
+      file: "content/wordpress-kehittaja.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Body", name: "body", widget: "markdown"}
+    - label: "Miksaaja"
+      name: "miksaaja"
+      file: "content/miksaaja.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Body", name: "body", widget: "markdown"}
+    - label: "Kanelin kasvattaja"
+      name: "kanelin-kasvattaja"
+      file: "content/kanelin-kasvattaja.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Body", name: "body", widget: "markdown"}
+    - label: "Tietosuojaseloste"
+      name: "tietosuojaseloste"
+      file: "content/tietosuojaseloste.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Body", name: "body", widget: "markdown"}
