@@ -3,7 +3,7 @@ import Hero from '../components/hero';
 import Osaaminen from '../components/osaaminen';
 import Asiakkaat from '../components/asiakkaat';
 import Layout from '../components/layout';
-import { attributes, react as HomeContent } from '../content/home.md';
+
 
 export default function Index() {
     return (
@@ -20,7 +20,7 @@ export default function Index() {
                 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
             </Head>
 
-            <HomeContent />
+
             
             <Hero />
 
