@@ -16,7 +16,7 @@ export default function Index() {
                 <meta property="og:image" content={ require('../public/images/oskari.jpg') } />
                 <meta property="og:image:width" content="3000" />
                 <meta property="og:image:height" content="2000" />
-                <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+                <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
             </Head>
             
             <Hero />
