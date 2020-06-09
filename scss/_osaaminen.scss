@@ -10,7 +10,7 @@
     z-index: 2;
 
     @include minwidth(992) {
-        padding: 6rem 2rem;
+        padding: 6rem;
     }
 }
 
@@ -34,6 +34,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 -24px -24px 0;
+    max-width: 100%;
 
     @include minwidth(992) {
         margin: 0 -40px -40px 0;
@@ -42,26 +43,39 @@
 
 .taito {
     align-items: center;
-    border: 2px solid white;
-    border-radius: 4px;
     display: flex;
     flex: 0 0 calc(100% - 24px);
     flex-direction: column;
     justify-content: center;
     margin: 0 24px 24px 0;
     max-width: calc(100% - 24px);
-    padding: 40px 24px;
+    padding: 24px 0;
 
-    @include minwidth(576) {
+    @include minwidth(480) {
         flex: 0 0 calc(50% - 24px);
         max-width: calc(50% - 24px);
     }
 
-    @include minwidth(992) {
+    @include minwidth(720) {
         flex: 0 0 calc(33% - 40px);
         margin: 0 40px 40px 0;
         max-width: calc(33% - 40px);
-        padding: 40px 24px;
+        padding: 48px 0;
+    }
+
+    &:hover,
+    &:focus {
+        .taito__icon {
+            svg {
+                transform: scale(1.25);
+            }
+        }
+
+        .taito__title {
+            &:after {
+                transform: scaleX(1);
+            }
+        }
     }
 }
 
@@ -69,6 +83,7 @@
     svg {
         width: 48px;
         height: 48px;
+        transition: transform .3s ease-in;
     }
 
     path {
@@ -77,12 +92,24 @@
 }
 
 .taito__title {
+    color: #fff;
     font-size: 18px;
     font-weight: 700;
     margin: 16px 0 0;
+    position: relative;
 
     @include minwidth(992) {
         font-size: 20px;
         margin: 24px 0 0;
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        transform: scaleX(0);
+        background-color: #fff;
+        height: 3px;
+        margin-top: 4px;
+        transition: transform .3s ease-in;
     }
 }
