@@ -46,7 +46,7 @@ collections:
       file: "content/tietosuojaseloste.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - { label: "Body", name: "body", widget: "markdown"}
+        - { label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, heading-two, heading-three, heading-four, quote, bulleted-list, numbered-list]}
   - label: 'Articles'
     name: 'article'
     folder: 'content/articles'
