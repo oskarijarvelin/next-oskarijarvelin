@@ -5,7 +5,7 @@ title: Tietosuojaseloste
 
 _Curabitur lobortis nisl lacus. Vivamus maximus tempor ante a gravida._
 
-# Phasellus lobortis luctus justo eu iaculis. 
+# Phasellus lobortis luctus justo eu iaculis.
 
 Curabitur rhoncus vitae sapien vel ultrices. Integer accumsan magna eget quam scelerisque scelerisque. Fusce non pharetra est. Etiam nunc ante, dictum tempus diam vel, semper accumsan diam. Morbi hendrerit, lacus in dignissim blandit, sem justo mattis est, eu ultricies lectus neque id mauris. Donec nec fermentum massa. In purus nisi, tincidunt id ante auctor, semper laoreet eros. Phasellus erat nisl, scelerisque id justo a, luctus maximus eros. Suspendisse dolor dui, finibus ut feugiat ac, euismod ac dolor. Sed gravida quam et urna tempor, sit amet vulputate enim consequat. 
 
@@ -22,7 +22,7 @@ Suspendisse odio nisl, tincidunt quis quam lobortis, tempus luctus nunc. Mauris 
 
 Vivamus hendrerit, libero at gravida dapibus, ipsum orci maximus mi, nec sagittis quam eros ac sem. Vivamus mi justo, consequat id quam et, malesuada sollicitudin leo. Pellentesque fermentum magna mauris, ac sollicitudin metus lobortis ac. Maecenas sagittis, quam ullamcorper eleifend pharetra, ante quam laoreet sapien, at vehicula nunc massa sit amet turpis. 
 
-![img Alt](/public/images/stage.jpg "img Title")
+![img Alt](/_next/static/images/stage.jpg "img Title")
 
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur pretium velit nisi, vel mollis enim tempus a. Curabitur nec risus non velit pharetra facilisis. Nunc justo lectus, scelerisque eget nibh vel, aliquet maximus erat. Integer tincidunt a turpis vel lobortis. Phasellus nec enim quam. 
 
