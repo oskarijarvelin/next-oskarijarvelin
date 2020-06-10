@@ -26,7 +26,7 @@ export default class MyDocument extends Document {
                     <meta name="msapplication-navbutton-color" content="#ffffff" />
                     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
                     <meta name="msapplication-starturl" content="/" />
-                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+                    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
 
                     <link rel="icon" type="image/png" sizes="72x72" href="images/icons/icon-72x72.png" />
                     <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="images/icons/icon-72x72.png" />
