@@ -92,4 +92,8 @@
             width: 250px;
         }
     }
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
 }
