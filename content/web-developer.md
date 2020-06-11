@@ -10,4 +10,4 @@ Web Developer -nimikkeellä työskentelen oululaisessa [Digimoguli Oy](https://d
 
 > WordPress on maailman suosituin sisällönhallintajärjestelmä. Helmikuussa 2020 tehdyssä tutkimuksessa 35% maailman verkkosivustoista käyttivät WordPressiä alustanaan.
 
-Osaamiseeni kuuluvat myös modernimmat web-teknologiat, kuten React, Gatsby ja Next.js. Nykyinen sivustoni onkin toteutettu juuri viimeisämpänä mainitulla teknologialla.
+Osaamiseeni kuuluvat myös modernimmat web-teknologiat, kuten _React_, _Gatsby_ ja _Next.js_. Nykyinen sivustoni onkin toteutettu juuri viimeisämpänä mainitulla teknologialla.
