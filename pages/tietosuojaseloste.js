@@ -7,10 +7,10 @@ export default function Tietosuojaseloste() {
     return (
         <Layout title={attributes.title}>
             <Head>
-                <title>{attributes.title} - Oskari Järvelin - Web Developer</title>
-                <meta name="description" content="Olen 25-vuotias Web Developer Oulusta. Ydinosaamistani ovat verkkopalvelut, WordPress, tietoturva ja tapahtumatekniikka. Kuinka voin palvella?" />
-                <meta property="og:title" content={attributes.title + " - Oskari Järvelin - Web Developer"} />
-                <meta property="og:description" content="Olen 25-vuotias Web Developer Oulusta. Ydinosaamistani ovat verkkopalvelut, WordPress, tietoturva ja tapahtumatekniikka. Kuinka voin palvella?" />
+                <title>{attributes.metatitle}</title>
+                <meta name="description" content={attributes.metadesc} />
+                <meta property="og:title" content={attributes.metatitle} />
+                <meta property="og:description" content={attributes.metadesc} />
                 <meta property="og:url" content="https://oskarijarvelin.fi/tietosuojaseloste" />
                 <meta property="og:image" content={ require('../public/images/oskari.jpg') } />
                 <meta property="og:image:width" content="3000" />

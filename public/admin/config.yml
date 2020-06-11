@@ -10,45 +10,12 @@ slug:
 collections:
   - label: "Pages"
     name: "pages"
-    files:
-    - label: "Web Developer"
-      name: "web-developer"
-      file: "content/web-developer.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, heading-two, heading-three, heading-four, quote, bulleted-list, numbered-list]}
-    - label: "Valomies"
-      name: "valomies"
-      file: "content/valomies.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, heading-two, heading-three, heading-four, quote, bulleted-list, numbered-list]}
-    - label: "WordPress-kehittäjä"
-      name: "wordpress-kehittaja"
-      file: "content/wordpress-kehittaja.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, heading-two, heading-three, heading-four, quote, bulleted-list, numbered-list]}
-    - label: "Miksaaja"
-      name: "miksaaja"
-      file: "content/miksaaja.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, heading-two, heading-three, heading-four, quote, bulleted-list, numbered-list]}
-    - label: "Kanelin kasvattaja"
-      name: "kanelin-kasvattaja"
-      file: "content/kanelin-kasvattaja.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, heading-two, heading-three, heading-four, quote, bulleted-list, numbered-list]}
-    - label: "Tietosuojaseloste"
-      name: "tietosuojaseloste"
-      file: "content/tietosuojaseloste.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Meta-title", name: "meta-title", widget: "string"}
-        - { label: "Meta-description", name: "meta-desc", widget: "text"}
-        - { label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, heading-two, heading-three, heading-four, quote, bulleted-list, numbered-list]}
+    folder: "content"
+    fields:
+      - { label: "Title", name: "title", widget: "string"}
+      - { label: "Meta-title", name: "metatitle", widget: "string"}
+      - { label: "Meta-description", name: "metadesc", widget: "text"}
+      - { label: "Body", name: "body", widget: "markdown", buttons: [bold, italic, link, heading-two, heading-three, heading-four, quote, bulleted-list, numbered-list]}
   - label: 'Articles'
     name: 'article'
     folder: 'content/articles'
@@ -56,5 +23,7 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string', required: true }
+      - { label: "Meta-title", name: "metatitle", widget: "string"}
+      - { label: "Meta-description", name: "metadesc", widget: "text"}
       - { label: 'Featured Image', name: 'thumbnail', widget: 'image', required: true }
       - { label: 'Body', name: 'body', widget: 'markdown', buttons: [bold, italic, link, heading-two, heading-three, heading-four, quote, bulleted-list, numbered-list], required: true }
