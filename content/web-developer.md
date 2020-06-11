@@ -6,7 +6,7 @@ metadesc: >-
   saavutettaviin, turvallisiin ja progressiivisiin webapplikaatioihin. Kuinka
   voin palvella?
 ---
-Kuinka voin palvella? Wen-kehityksen osaamistani myy [Digimoguli Oy](https://digimoguli.fi/).
+**Kuinka voin palvella?** Web-kehityksen osaamistani myy [Digimoguli Oy](https://digimoguli.fi/).
 
 Web Developer -nimikkeellä työskentelen oululaisessa Digimoguli Oy:ssä, jossa toteutan pääasiassa **WordPress**-pohjaisia verkkopalveluita ja -kauppoja. Olen saanut olla kehittämässä ja tuotteistamassa osaamistani sivustojen ylläpitoon, turvallisuuteen, nopeuteen ja saavutettavuuteen.
 
