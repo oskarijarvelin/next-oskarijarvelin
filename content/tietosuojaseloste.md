@@ -1,5 +1,9 @@
 ---
-title: Tietojensuojaseloste
+title: Tietosuojaseloste
+meta-title: Tietosuojaseloste - Oskari Järvelin - Kuinka voin palvella?
+meta-desc: >-
+  Olen 25-vuotias Web Developer Oulusta. Ydinosaamistani ovat verkkopalvelut,
+  WordPress, tietoturva ja tapahtumatekniikka. Kuinka voin palvella?
 ---
 **Lorem ipsum dolor sit amet**, consectetur adipiscing elit. Cras id eros at enim fringilla porta non iaculis metus. Mauris sed nunc lorem. Vivamus et lorem lobortis mi accumsan viverra sit amet efficitur erat. Sed pellentesque ultrices quam, in bibendum dui ornare id. Suspendisse quis leo mi. Suspendisse nec quam vitae ex gravida molestie et vel tortor. [Mauris molestie](#) quis diam non aliquam. Maecenas ultrices eros sapien. 
 
