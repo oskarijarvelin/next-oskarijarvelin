@@ -5,11 +5,11 @@ import { attributes, react as MdContent } from '../content/tietosuojaseloste.md'
 
 export default function Tietosuojaseloste() {
     return (
-        <Layout title="Tietosuojaseloste">
+        <Layout title={attributes.title}>
             <Head>
-                <title>Tietosuojaseloste - Oskari Järvelin - Web Developer</title>
+                <title>{attributes.title} - Oskari Järvelin - Web Developer</title>
                 <meta name="description" content="Olen 25-vuotias Web Developer Oulusta. Ydinosaamistani ovat verkkopalvelut, WordPress, tietoturva ja tapahtumatekniikka. Kuinka voin palvella?" />
-                <meta property="og:title" content="Tietosuojaseloste - Oskari Järvelin - Web Developer" />
+                <meta property="og:title" content={attributes.title + " - Oskari Järvelin - Web Developer"} />
                 <meta property="og:description" content="Olen 25-vuotias Web Developer Oulusta. Ydinosaamistani ovat verkkopalvelut, WordPress, tietoturva ja tapahtumatekniikka. Kuinka voin palvella?" />
                 <meta property="og:url" content="https://oskarijarvelin.fi/tietosuojaseloste" />
                 <meta property="og:image" content={ require('../public/images/oskari.jpg') } />
@@ -20,7 +20,7 @@ export default function Tietosuojaseloste() {
             <div className="content-wrapper">
                 <div className="content">
                     <Link href="/"><a>&larr; Palaa takaisin</a></Link>
-                    <h1>Tietosuojaseloste</h1>
+                    <h1>{attributes.title}</h1>
                     <MdContent />
                 </div>
             </div>
