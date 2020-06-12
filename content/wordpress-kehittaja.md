@@ -6,12 +6,10 @@ metadesc: >-
   teemat, lisäosat, integraatiot, nopeusoptimoinnin, saavutettavuustestauksen,
   tietoturvakovennukset ja huolenpidon. Kuinka voin palvella?
 ---
-**Kuinka voin palvella?** WordPress-osaamistani myy [Digimoguli Oy](https://digimoguli.fi/).
+**Kuinka voin palvella?** Osaamistani myy [Digimoguli Oy](https://digimoguli.fi/).
 
-Omaan pitkän ja laajan osaamisen WordPress-alustan päälle kehittämisestä. Olen luonut laajasti erilaisia sivustoja, teemoja ja lisäosia hyödyntäen WordPressin tuomia etuja ja monelle tuttua hallintapaneelia. Olen perehtynyt WordPressin **tietoturvaan** ja sivustoja rakentaessa kiinnitän huomiota erityisesti turvallisuuteen.
+WordPress-kehittäjä hallitsen kokonaisvaltaisesti maailman suosituimman _sisällönhallintajärjestelmän_ hyödyntämisen verkkopalvelun pohjana. Olen luonut monipuolisesti erilaisia sivustoja, teemoja ja lisäosia sekä perehtynyt **WordPressin tietoturvaan**.
 
-> **Tietoturvaan**
->
->  liittyvistä työkaluista yleisin on ilmainen Wordfence-lisäosa. Se on käytössä kuitenkin vasta yli 3 miljoonalla WP-sivustolla. Nuo 3 miljoona sivustoa torjui kuitenkin torjui pelkästään helmikuun aikana yli 4 miljardia hyökkäystä ja esti yli 86 000 pahansuopaa IP-osoitetta.
+> **WP:n tietoturvaan** liittyvistä työkaluista yleisin on ilmainen Wordfence-lisäosa. Tietoturvan tärkeydestä kertoo se, että Wordfence on käytössä vain yli 3 miljoonalla WP-sivustolla. Noilla sivustoilla se torjuu kuukauden aikana jopa yli 4 miljardia hyökkäystä.
 
-Tietoturvakovennusten lisäksi olen kehittänyt WordPressille erityisesti integraatioita, nopeusoptimointia, saavutettavuustestausta ja huolenpitoa perehtyen syvällisesti kuhunkin aihealueeseen. Osaan tehdä WordPress-sivustosta myös Progressiivisen Web-Applikaation (PWA:n), jolloin sivuston tulee olla nopea, asennettavissa laitteelle applikaationa ja toimia osin myös ilman verkkoyhteyttä.
+Tietoturvakovennusten lisäksi olen kehittänyt WordPressille erityisesti integraatioita, nopeusoptimointia, saavutettavuustestausta ja huolenpitoa perehtyen syvällisesti kuhunkin aihealueeseen. Osaan myös tehdä WordPress-sivustosta Progressiivisen Web-Applikaation (PWA:n), jolloin sivuston tulee olla nopea, asennettavissa laitteelle applikaationa ja toimia osin myös ilman verkkoyhteyttä.
