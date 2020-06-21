@@ -19,7 +19,7 @@ export default function Webdeveloper() {
 
             <div className="content-wrapper">
                 <div className="content">
-                    <Link href="/"><a>&larr; Palaa takaisin</a></Link>
+                    <Link href="/#olen"><a>&larr; Palaa takaisin</a></Link>
                     <h1>{attributes.title}</h1>
                     <MdContent />
                 </div>

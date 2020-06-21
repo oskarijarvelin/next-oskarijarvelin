@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Osaaminen() {
     return (
-        <div className="osaaminen">
+        <div id="olen" className="osaaminen">
             <div className="osaaminen__content">
                 <h2>Olen 25-vuotias oululainen</h2>
 
