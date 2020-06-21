@@ -8,7 +8,7 @@ metadesc: >-
 ---
 **Kuinka voin palvella?** Osaamistani myy [Digimoguli Oy](https://digimoguli.fi/).
 
-WordPress-kehittäjä hallitsen kokonaisvaltaisesti maailman suosituimman _sisällönhallintajärjestelmän_ hyödyntämisen verkkopalvelun pohjana. Olen luonut monipuolisesti erilaisia sivustoja, teemoja ja lisäosia sekä perehtynyt **WordPressin tietoturvaan**.
+WordPress-kehittäjänä hallitsen kokonaisvaltaisesti maailman suosituimman _sisällönhallintajärjestelmän_ hyödyntämisen verkkopalvelun pohjana. Olen luonut monipuolisesti erilaisia sivustoja, teemoja ja lisäosia sekä perehtynyt **WordPressin tietoturvaan**.
 
 > **WP:n tietoturvaan** liittyvistä työkaluista yleisin on ilmainen Wordfence-lisäosa. Tietoturvan tärkeydestä kertoo se, että Wordfence on käytössä vain yli 3 miljoonalla WP-sivustolla. Noilla sivustoilla se kuitenkin torjuu kuukauden aikana jopa yli 4 miljardia hyökkäystä.
 
